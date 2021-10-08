@@ -1,0 +1,48 @@
+body {
+	font-family: "Big Shoulders Display", cursive;
+}
+
+.home {
+	background-color: #060e1d;
+	max-width: 100%;
+
+	h4 {
+		color: white;
+		padding-left: 35px;
+	}
+
+	button {
+		margin-right: 40px;
+		background-color: gray;
+		border: none !important;
+	}
+
+	button:hover {
+		background-color: lightgray !important;
+		color: white;
+	}
+}
+
+.top-items {
+	padding: 10px 10px 10px 10px;
+}
+
+@media (max-width: 800px) {
+	h4 {
+		margin-left: 10px;
+		text-align: center;
+	}
+
+	.top-items {
+		display: flex;
+		flex-direction: column;
+		text-align: center !important;
+	}
+
+	button {
+		text-align: center !important;
+		display: flex !important;
+		flex-direction: column !important;
+		margin-left: 45% !important;
+	}
+}

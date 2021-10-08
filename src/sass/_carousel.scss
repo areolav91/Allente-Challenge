@@ -1,0 +1,44 @@
+.movie-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 100%;
+}
+
+.movie-preview {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 10px 10px 10px 10px;
+}
+
+.card {
+	border: none !important;
+}
+
+.card-title {
+	color: white;
+}
+
+.card-body {
+	background-color: #192234;
+}
+
+.card-text {
+	color: #627685;
+}
+
+@media (max-width: 800px) {
+	.movie-list {
+		display: grid;
+		flex-direction: column;
+	}
+
+	h4 {
+		justify-content: center;
+	}
+
+	.movie-preview {
+		flex-direction: column;
+	}
+}
